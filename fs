@@ -12,6 +12,12 @@ git commit -m "gh"
 git checkout a
 git merge b
 
+qn: push and pull
+docker login
+docker build -t repo_name/img_name
+docker run -p 5000:5000 repo_name/img_name
+docker push repo_name/img_name
+docker pull repo_name/img_name
 
 DOCKER
 
