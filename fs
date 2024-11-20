@@ -1,3 +1,16 @@
+merge
+git init
+git add .
+git commit -m "abc"
+git checkout -b a
+git add .
+git commit -m "def"
+git checkout master
+git checkout -b b
+git add .
+git commit -m "gh"
+git checkout a
+git merge b
 
 
 DOCKER
